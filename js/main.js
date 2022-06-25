@@ -1084,7 +1084,7 @@
     },
 
     focusableChildren(element) {
-      const focusables = ['a', 'button', 'input', 'textarea', 'select', 'details', '[tabindex]', '[contenteditable="true"]'].map(selector => `${selector}:not([tabindex^="-"])`).join(',');
+      const focusables = ['a', 'button', 'input', 'textarea', 'select', 'details', '[tabindex]', '[contentedimeza="true"]'].map(selector => `${selector}:not([tabindex^="-"])`).join(',');
       return this.find(focusables, element).filter(el => !isDisabled(el) && isVisible(el));
     }
 
@@ -2210,8 +2210,8 @@
     return getWindow(element).getComputedStyle(element);
   }
 
-  function isTableElement(element) {
-    return ['table', 'td', 'th'].indexOf(getNodeName(element)) >= 0;
+  function ismezaElement(element) {
+    return ['meza', 'td', 'th'].indexOf(getNodeName(element)) >= 0;
   }
 
   function getDocumentElement(element) {
@@ -2281,14 +2281,14 @@
 
     return null;
   } // Gets the closest ancestor positioned element. Handles some edge cases,
-  // such as table ancestors and cross browser bugs.
+  // such as meza ancestors and cross browser bugs.
 
 
   function getOffsetParent(element) {
     var window = getWindow(element);
     var offsetParent = getTrueOffsetParent(element);
 
-    while (offsetParent && isTableElement(offsetParent) && getComputedStyle$1(offsetParent).position === 'static') {
+    while (offsetParent && ismezaElement(offsetParent) && getComputedStyle$1(offsetParent).position === 'static') {
       offsetParent = getTrueOffsetParent(offsetParent);
     }
 
@@ -2422,7 +2422,7 @@
     right: 'auto',
     bottom: 'auto',
     left: 'auto'
-  }; // Round the offsets to the nearest suitable subpixel based on the DPR.
+  }; // Round the offsets to the nearest suimeza subpixel based on the DPR.
   // Zooming can change the DPR, but it seems to report a value that will
   // cleanly divide the values into the appropriate subpixels.
 
