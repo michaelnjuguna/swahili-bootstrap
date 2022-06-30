@@ -3,7 +3,7 @@ Swahili boostrap is a front-end UI framework that is built on top of the officia
 Link: https://getbootstrap.com/
 It is built for the Swahili speaking communities.
 You simply use it by adding CSS classnames into a particular HTML tag as shown below.
-example: <button class="kitufe kitufe-bluu">Hello World!</button>
+example:  class="kitufe kitufe-bluu"
 # installation
 Copy and paste the following syntax into your HTML file
 
@@ -27,7 +27,7 @@ Copy and paste the following syntax into your HTML file
 </body>
 </html>
 
-The above syntax contains links to the necessary CSS and Javascript files.
+The above syntax contains links to the necessary CSS and Javascript files. Add them to your HTML file
 CSS link: https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/css/main.css
 Javascript link: https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/js/main.js
 
@@ -44,13 +44,13 @@ Nyeupe(white)
 Nyeusi(black)
 
 example:
- <h1 class="maandishi-bluu">Swahili Bootstrap</h1>
+  class="maandishi-bluu"
  
  #Font size
  To change the font size of your text you add the following classes to your HTML tags.
  maandishi-1 (largest font size) to maandishi-6(smallest font size) you simply increment or decrement the last number.
  
- Example:  <h1 class="maandishi-4">Swahili Bootstrap</h1>
+ Example:   class="maandishi-4"
  IMPORTANT maandishi is a classname to add text styles.
  # Sizes
  To add different sizes to your elements you add the following classes to your respective HTML tags
@@ -61,7 +61,7 @@ example:
  kidogo-zaidi(extra small)
  katikati(medium)
  
- example: <button class="kitufe kitufe-kubwa"> Hello world!</button>
+ example:  class="kitufe kitufe-kubwa"
  
  IMPORTANT : kitufe adds button styles
  
