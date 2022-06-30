@@ -28,6 +28,8 @@ Copy and paste the following syntax into your HTML file
 </html>
 
 The above syntax contains links to the necessary CSS and Javascript files.
+CSS link: https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/css/main.css
+Javascript link: https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/js/main.js
 
 # DOCUMENTATION
 # Colors
