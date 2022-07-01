@@ -5,29 +5,14 @@ It is built for the Swahili speaking communities.
 You simply use it by adding CSS classnames into a particular HTML tag as shown below.
 example:  class="kitufe kitufe-bluu"
 # installation
-Copy and paste the following syntax into your HTML file
+Add the following link to your HTML file as a CSS external link:
+href="https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/css/main.css"
+Add the following link to your HTML file as a Javascript external link:
+src="https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/js/main.js"
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World!</title>
-    <!-- important css file add it to your html file-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/css/main.css" crossorigin="anonymous">
 
-</head>
-<body>
-    <!-- add div --> 
-    
-                <h1 class="maandishi-1">Swahili Bootstrap</h1>
-    <!-- important javascript file add it to your html file-->
-    <script src="https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/js/main.js"></script>
-</body>
-</html>
-
-The above syntax contains links to the necessary CSS and Javascript files. Add them to your HTML file
+IMPORTANT!
+The links below contains resources needed to use Swahili-Bootstrap
 CSS link: https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/css/main.css
 Javascript link: https://cdn.jsdelivr.net/gh/michaelnjuguna/swahili-bootstrap@main/js/main.js
 
